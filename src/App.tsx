@@ -171,16 +171,16 @@ export default function App() {
       </main>
 
       {/* Seasonal Switcher (Bottom Mobile) */}
-      <div className="md:hidden fixed bottom-6 left-6 right-6 z-40 bg-white/90 backdrop-blur-md p-4 rounded-full shadow-lg flex justify-around">
+      <div className="md:hidden fixed bottom-8 left-1/2 -translate-x-1/2 z-40 bg-white/90 backdrop-blur-md px-8 py-4 rounded-full shadow-2xl flex gap-8 border border-neutral-200/50">
         {SEASONS.map((season) => (
           <button
             key={season.id}
             onClick={() => setActiveSeason(season.id)}
-            className={`text-[10px] uppercase tracking-widest ${
-              activeSeason === season.id ? 'text-neutral-900 font-bold' : 'text-neutral-400'
+            className={`text-sm tracking-widest transition-all duration-300 ${
+              activeSeason === season.id ? 'text-neutral-900 font-medium scale-125' : 'text-neutral-400'
             }`}
           >
-            {season.id.charAt(0)}
+            {season.chineseTitle.split(' · ')[0]}
           </button>
         ))}
       </div>
