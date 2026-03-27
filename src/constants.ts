@@ -7,7 +7,7 @@ export const SEASONS: SeasonData[] = [
     chineseTitle: '春 · 生机',
     description: 'The mountains wake up. Delicate blossoms and fresh greenery breathe life back into the Jinshanling landscape.',
     color: '#5A5A40',
-    heroImage: 'https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&q=80&w=2000',
+    heroImage: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/hero.jpg',
     gallery: [
       { id: 'sp1', title: 'Mountain Mist', location: 'Valley Road', url: 'https://images.unsplash.com/photo-1462270622445-5042b8683637?auto=format&fit=crop&q=80&w=800' },
       { id: 'sp2', title: 'First Bloom', location: 'Community Garden', url: 'https://images.unsplash.com/photo-1455218873509-8097305ee378?auto=format&fit=crop&q=80&w=800' },
@@ -21,7 +21,7 @@ export const SEASONS: SeasonData[] = [
     chineseTitle: '夏 · 繁茂',
     description: 'Deep greens and golden sunlight. The community thrives under the warmth of the mountain sun.',
     color: '#2C4A3E',
-    heroImage: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=2000',
+    heroImage: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/summer/hero.jpg',
     gallery: [
       { id: 'su1', title: 'Golden Hour', location: 'The Plaza', url: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80&w=800' },
       { id: 'su2', title: 'Forest Canopy', location: 'Pine Forest', url: 'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&q=80&w=800' },
@@ -35,7 +35,7 @@ export const SEASONS: SeasonData[] = [
     chineseTitle: '秋 · 绚烂',
     description: 'A masterpiece of fire and gold. The mountains transform into a tapestry of brilliant colors.',
     color: '#8B4513',
-    heroImage: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=2000',
+    heroImage: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/autumn/hero.jpg',
     gallery: [
       { id: 'au1', title: 'Amber Leaves', location: 'Maple Path', url: 'https://images.unsplash.com/photo-1506354666786-959d6d497f1a?auto=format&fit=crop&q=80&w=800' },
       { id: 'au2', title: 'Harvest Moon', location: 'Open Field', url: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=800' },
@@ -49,7 +49,7 @@ export const SEASONS: SeasonData[] = [
     chineseTitle: '冬 · 寂静',
     description: 'Pure white silence. The architecture stands in stark, beautiful contrast against the snow-covered peaks.',
     color: '#4A5568',
-    heroImage: 'https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?auto=format&fit=crop&q=80&w=2000',
+    heroImage: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/hero.jpg',
     gallery: [
       { id: 'wi1', title: 'Snowfall', location: 'Main Entrance', url: 'https://images.unsplash.com/photo-1477601263568-184e1c6374de?auto=format&fit=crop&q=80&w=800' },
       { id: 'wi2', title: 'Frozen Lake', location: 'South Pond', url: 'https://images.unsplash.com/photo-1491002052546-bf38f186af56?auto=format&fit=crop&q=80&w=800' },

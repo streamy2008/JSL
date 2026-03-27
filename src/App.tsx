@@ -118,7 +118,7 @@ export default function App() {
 
         {/* Vertical Rail Text */}
         <div className="absolute left-6 bottom-32 z-20 hidden lg:block">
-          <div className="writing-vertical-rl rotate-180 text-[10px] uppercase tracking-[0.5em] text-white/40">
+          <div className="writing-vertical-rl text-[10px] uppercase tracking-[0.5em] text-white/40">
             Photography by Independent Artist
           </div>
         </div>
@@ -198,7 +198,7 @@ export default function App() {
           </div>
           <div className="flex flex-col justify-end gap-4">
             <p className="text-xs uppercase tracking-[0.3em] text-white/40">Contact</p>
-            <p className="text-lg font-light">sean.zheng2008@gmail.com</p>
+            <p className="text-lg font-light">studio@aranya-jinshanling.com</p>
             <div className="flex gap-4 mt-4">
               <Instagram className="w-5 h-5 opacity-60 hover:opacity-100 cursor-pointer transition-opacity" />
               <Camera className="w-5 h-5 opacity-60 hover:opacity-100 cursor-pointer transition-opacity" />
