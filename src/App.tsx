@@ -171,13 +171,13 @@ export default function App() {
       </main>
 
       {/* Seasonal Switcher (Bottom Mobile) */}
-      <div className="md:hidden fixed bottom-8 left-1/2 -translate-x-1/2 z-40 bg-white/90 backdrop-blur-md px-8 py-4 rounded-full shadow-2xl flex gap-8 border border-neutral-200/50">
+      <div className="md:hidden fixed bottom-10 left-1/2 -translate-x-1/2 z-40 bg-white/20 backdrop-blur-2xl px-8 py-4 rounded-full shadow-[0_8px_32px_0_rgba(0,0,0,0.1)] flex gap-8 border border-white/30">
         {SEASONS.map((season) => (
           <button
             key={season.id}
             onClick={() => setActiveSeason(season.id)}
-            className={`text-sm tracking-widest transition-all duration-300 ${
-              activeSeason === season.id ? 'text-neutral-900 font-medium scale-125' : 'text-neutral-400'
+            className={`text-sm tracking-widest transition-all duration-300 serif-sc ${
+              activeSeason === season.id ? 'text-neutral-900 font-medium scale-125' : 'text-neutral-500 hover:text-neutral-700'
             }`}
           >
             {season.chineseTitle.split(' · ')[0]}
@@ -198,7 +198,7 @@ export default function App() {
           </div>
           <div className="flex flex-col justify-end gap-4">
             <p className="text-xs uppercase tracking-[0.3em] text-white/40">Contact</p>
-            <p className="text-lg font-light">studio@aranya-jinshanling.com</p>
+            <p className="text-lg font-light">sean.zheng2008@gmail.com</p>
             <div className="flex gap-4 mt-4">
               <Instagram className="w-5 h-5 opacity-60 hover:opacity-100 cursor-pointer transition-opacity" />
               <Camera className="w-5 h-5 opacity-60 hover:opacity-100 cursor-pointer transition-opacity" />
