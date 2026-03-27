@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Syne:wght@400..800&display=swap');
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Syne", sans-serif;
+}
+
+:root {
+  --bg-spring: #f2f4f0;
+  --bg-summer: #f0f4f8;
+  --bg-autumn: #f8f4f0;
+  --bg-winter: #f5f5f5;
+}
+
+body {
+  @apply bg-neutral-50 text-neutral-900 antialiased selection:bg-neutral-900 selection:text-white;
+  font-family: var(--font-sans);
+}
+
+.serif {
+  font-family: var(--font-serif);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4d4d4;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a3a3a3;
+}
