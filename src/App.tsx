@@ -35,7 +35,7 @@ export default function App() {
         <div className="flex items-center gap-2 group cursor-pointer">
           <Camera className={`w-6 h-6 transition-colors duration-500 ${isScrolled ? 'text-neutral-900' : 'text-white'}`} />
           <span className={`text-sm font-medium tracking-[0.2em] uppercase transition-colors duration-500 ${isScrolled ? 'text-neutral-900' : 'text-white'}`}>
-            Aranya Jinshanling
+            jinshanling
           </span>
         </div>
 
@@ -137,7 +137,7 @@ export default function App() {
           <div className="max-w-xl">
             <h3 className="serif text-4xl md:text-5xl mb-6">Capturing the Essence</h3>
             <p className="text-neutral-500 leading-relaxed font-light">
-              Aranya Jinshanling is more than a community; it's a living dialogue between architecture and the rugged beauty of the mountains. Each season tells a different story of light, texture, and silence.
+              jinshanling is more than a community; it's a living dialogue between architecture and the rugged beauty of the mountains. Each season tells a different story of light, texture, and silence.
             </p>
           </div>
           <div className="flex items-center gap-4 text-xs uppercase tracking-widest font-medium group cursor-pointer">
@@ -208,7 +208,7 @@ export default function App() {
           </div>
           <div className="flex flex-col justify-end gap-4">
             <p className="text-xs uppercase tracking-[0.3em] text-white/40">Contact</p>
-            <p className="text-lg font-light">sean.zheng2008@gmail.com</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-white/40">sean.zheng2008@gmail.com</p>
             <div className="flex gap-4 mt-4">
               <Instagram className="w-5 h-5 opacity-60 hover:opacity-100 cursor-pointer transition-opacity" />
               <Camera className="w-5 h-5 opacity-60 hover:opacity-100 cursor-pointer transition-opacity" />
@@ -216,7 +216,7 @@ export default function App() {
           </div>
         </div>
         <div className="max-w-7xl mx-auto mt-24 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between gap-4 text-[10px] uppercase tracking-[0.2em] text-white/30">
-          <p>© 2026 Aranya Jinshanling Photography</p>
+          <p>© 2026 Sean Photography</p>
           <p>Designed for the Four Seasons</p>
         </div>
       </footer>

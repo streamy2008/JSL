@@ -14,9 +14,9 @@ export default defineConfig(({mode}) => {
         registerType: 'autoUpdate',
         includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
         manifest: {
-          name: 'Aranya Jinshanling Photography',
-          short_name: 'Aranya Photo',
-          description: 'Capturing the Essence of Aranya Jinshanling across the Four Seasons.',
+          name: 'jinshanling Photography',
+          short_name: 'jinshanling Photo',
+          description: 'Capturing the Essence of jinshanling across the Four Seasons.',
           theme_color: '#000000',
           icons: [
             {
