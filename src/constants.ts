@@ -81,6 +81,9 @@ export const SEASONS: SeasonData[] = [
       { id: 'au15', title: 'Golden Bloom', location: 'Community Garden', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/autumn/15.jpg' },
       { id: 'au16', title: 'Crimson Ridge', location: 'Observation Deck', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/autumn/16.jpg' },
       { id: 'au17', title: 'Autumn Valley', location: 'Hiking Trail', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/autumn/17.jpg' },
+      { id: 'au18', title: 'Autumn Reflection', location: 'Mirror Lake', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/autumn/18.jpg' },
+      { id: 'au19', title: 'Golden Canopy', location: 'Forest Edge', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/autumn/19.jpg' },
+      { id: 'au20', title: 'Crimson Peak', location: 'North Ridge', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/autumn/20.jpg' },
     ]
   },
   {
