@@ -89,10 +89,22 @@ export const SEASONS: SeasonData[] = [
     color: '#4A5568',
     heroImage: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/hero.jpg',
     gallery: [
-      { id: 'wi1', title: 'Snowfall', location: 'Main Entrance', url: 'https://images.unsplash.com/photo-1477601263568-184e1c6374de?auto=format&fit=crop&q=80&w=800' },
-      { id: 'wi2', title: 'Frozen Lake', location: 'South Pond', url: 'https://images.unsplash.com/photo-1491002052546-bf38f186af56?auto=format&fit=crop&q=80&w=800' },
-      { id: 'wi3', title: 'Winter Light', location: 'Chapel', url: 'https://images.unsplash.com/photo-1482489603187-f0ae98f307a7?auto=format&fit=crop&q=80&w=800' },
-      { id: 'wi4', title: 'Minimalist Peak', location: 'Summit', url: 'https://images.unsplash.com/photo-1454166155302-ef4863c27e70?auto=format&fit=crop&q=80&w=800' },
+      { id: 'wi1', title: 'Winter Silence', location: 'Main Entrance', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/1.jpg' },
+      { id: 'wi2', title: 'Snow Peak', location: 'Summit View', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/2.jpg' },
+      { id: 'wi3', title: 'Frozen Ridge', location: 'North Slope', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/3.jpg' },
+      { id: 'wi4', title: 'Winter Morning', location: 'Valley Road', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/4.jpg' },
+      { id: 'wi5', title: 'Snow Forest', location: 'Pine Grove', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/5.jpg' },
+      { id: 'wi6', title: 'Frozen Stream', location: 'River Bank', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/6.jpg' },
+      { id: 'wi7', title: 'Winter Light', location: 'East Ridge', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/7.jpg' },
+      { id: 'wi8', title: 'Snow Path', location: 'West Trail', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/8.jpg' },
+      { id: 'wi9', title: 'Winter Horizon', location: 'Peak View', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/9.jpg' },
+      { id: 'wi10', title: 'Frozen Valley', location: 'South Ridge', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/10.jpg' },
+      { id: 'wi11', title: 'Winter Mist', location: 'North Pass', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/11.jpg' },
+      { id: 'wi12', title: 'Snow Meadow', location: 'Green Field', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/12.jpg' },
+      { id: 'wi13', title: 'Winter Serenity', location: 'Chapel', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/13.jpg' },
+      { id: 'wi14', title: 'Frozen Lake', location: 'South Pond', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/14.jpg' },
+      { id: 'wi15', title: 'Winter Twilight', location: 'Sunset Point', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/15.jpg' },
+      { id: 'wi16', title: 'Snow Ridge', location: 'Observation Deck', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/winter/16.jpg' },
     ]
   }
 ];
