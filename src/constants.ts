@@ -11,7 +11,6 @@ export const SEASONS: SeasonData[] = [
     gallery: [
       { id: 'sp1', title: 'Mountain Mist', location: 'Valley Road', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/1.jpg' },
       { id: 'sp2', title: 'First Bloom', location: 'Community Garden', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/2.jpg' },
-      { id: 'sp3', title: 'Morning Dew', location: 'Hiking Trail', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/3.jpg' },
       { id: 'sp4', title: 'Verdant Peaks', location: 'Observation Deck', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/4.jpg' },
       { id: 'sp5', title: 'Spring Serenity', location: 'Mountain Path', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/5.jpg' },
       { id: 'sp6', title: 'Blossom Trail', location: 'East Ridge', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/6.jpg' },

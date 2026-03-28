@@ -5,13 +5,14 @@
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Camera, Instagram, Mail, ChevronRight, ArrowDown } from 'lucide-react';
+import { Camera, Instagram, Mail, ChevronRight, ArrowDown, X } from 'lucide-react';
 import { SEASONS } from './constants';
-import { Season } from './types';
+import { Season, Photo } from './types';
 
 export default function App() {
   const [activeSeason, setActiveSeason] = useState<Season>('spring');
   const [isScrolled, setIsScrolled] = useState(false);
+  const [selectedImage, setSelectedImage] = useState<Photo | null>(null);
 
   const currentSeasonData = SEASONS.find(s => s.id === activeSeason)!;
 
@@ -81,8 +82,14 @@ export default function App() {
             <img
               src={currentSeasonData.heroImage}
               alt={currentSeasonData.title}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover cursor-zoom-in"
               referrerPolicy="no-referrer"
+              onClick={() => setSelectedImage({
+                id: 'hero',
+                url: currentSeasonData.heroImage,
+                title: currentSeasonData.title,
+                location: 'Hero View'
+              })}
             />
           </motion.div>
         </AnimatePresence>
@@ -149,11 +156,14 @@ export default function App() {
                 transition={{ delay: index * 0.1, duration: 0.8 }}
                 className={`group relative ${index % 2 === 1 ? 'md:mt-24' : ''}`}
               >
-                <div className="overflow-hidden aspect-[4/5] bg-neutral-100">
+                <div 
+                  className="overflow-hidden aspect-[4/5] bg-neutral-100 cursor-zoom-in"
+                  onClick={() => setSelectedImage(photo)}
+                >
                   <img
                     src={photo.url}
                     alt={photo.title}
-                    className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+                    className="w-full h-full object-cover transition-all duration-700 group-hover:object-contain group-hover:scale-110 group-hover:bg-neutral-200"
                     referrerPolicy="no-referrer"
                   />
                 </div>
@@ -210,6 +220,51 @@ export default function App() {
           <p>Designed for the Four Seasons</p>
         </div>
       </footer>
+
+      {/* Lightbox Modal */}
+      <AnimatePresence>
+        {selectedImage && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setSelectedImage(null)}
+            className="fixed inset-0 z-[100] bg-black/95 backdrop-blur-xl flex items-center justify-center p-4 md:p-12 cursor-zoom-out"
+          >
+            <motion.button
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              className="absolute top-8 right-8 text-white/60 hover:text-white transition-colors z-[110]"
+              onClick={(e) => {
+                e.stopPropagation();
+                setSelectedImage(null);
+              }}
+            >
+              <X className="w-8 h-8" />
+            </motion.button>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.9, y: 20 }}
+              transition={{ type: "spring", damping: 25, stiffness: 200 }}
+              className="relative max-w-full max-h-full flex flex-col items-center"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <img
+                src={selectedImage.url}
+                alt={selectedImage.title}
+                className="max-w-full max-h-[85vh] object-contain shadow-2xl"
+                referrerPolicy="no-referrer"
+              />
+              <div className="mt-8 text-center text-white">
+                <h4 className="serif text-3xl mb-2">{selectedImage.title}</h4>
+                <p className="text-xs uppercase tracking-[0.4em] text-white/40">{selectedImage.location}</p>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
