@@ -17,6 +17,14 @@ export const SEASONS: SeasonData[] = [
       { id: 'sp7', title: 'Spring Awakening', location: 'Mountain Slope', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/7.jpg' },
       { id: 'sp8', title: 'Floral Valley', location: 'South Ridge', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/8.jpg' },
       { id: 'sp9', title: 'Morning Dew', location: 'Forest Path', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/9.jpg' },
+      { id: 'sp10', title: 'Spring Valley', location: 'North Ridge', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/10.jpg' },
+      { id: 'sp11', title: 'Spring Bloom', location: 'Valley View', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/11.jpg' },
+      { id: 'sp12', title: 'Spring Mist', location: 'Mountain Path', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/12.jpg' },
+      { id: 'sp13', title: 'Mountain Spring', location: 'Ridge Path', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/13.jpg' },
+      { id: 'sp15', title: 'Blossom Peak', location: 'Summit View', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/15.jpg' },
+      { id: 'sp16', title: 'Spring Horizon', location: 'Observation Deck', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/16.jpg' },
+      { id: 'sp17', title: 'Floral Path', location: 'East Slope', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/17.jpg' },
+      { id: 'sp18', title: 'Green Valley', location: 'Hiking Trail', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/18.jpg' },
     ]
   },
   {
