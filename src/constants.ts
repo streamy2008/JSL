@@ -25,6 +25,18 @@ export const SEASONS: SeasonData[] = [
       { id: 'sp16', title: 'Spring Horizon', location: 'Observation Deck', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/16.jpg' },
       { id: 'sp17', title: 'Floral Path', location: 'East Slope', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/17.jpg' },
       { id: 'sp18', title: 'Green Valley', location: 'Hiking Trail', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/18.jpg' },
+      { id: 'sp20', title: 'Spring Lake', location: 'Mirror Pond', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/20.jpg' },
+      { id: 'sp22', title: 'Blossom Ridge', location: 'West Slope', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/22.jpg' },
+      { id: 'sp24', title: 'Spring Meadow', location: 'Green Field', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/24.jpg' },
+      { id: 'sp28', title: 'Floral Terrace', location: 'Community Plaza', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/28.jpg' },
+      { id: 'sp32', title: 'Spring Forest', location: 'Pine Grove', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/32.jpg' },
+      { id: 'sp35', title: 'Mountain Bloom', location: 'High Trail', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/35.jpg' },
+      { id: 'sp38', title: 'Spring Twilight', location: 'Sunset Point', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/38.jpg' },
+      { id: 'sp39', title: 'Blossom Valley', location: 'South Slope', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/39.jpg' },
+      { id: 'sp40', title: 'Spring Stream', location: 'Creek Side', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/40.jpg' },
+      { id: 'sp44', title: 'Floral Peak', location: 'Summit View', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/44.jpg' },
+      { id: 'sp46', title: 'Spring Canopy', location: 'Forest Edge', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/46.jpg' },
+      { id: 'sp47', title: 'Verdant Ridge', location: 'North Pass', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/47.jpg' },
     ]
   },
   {
