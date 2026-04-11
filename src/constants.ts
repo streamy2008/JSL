@@ -37,6 +37,8 @@ export const SEASONS: SeasonData[] = [
       { id: 'sp44', title: 'Floral Peak', location: 'Summit View', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/44.jpg' },
       { id: 'sp46', title: 'Spring Canopy', location: 'Forest Edge', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/46.jpg' },
       { id: 'sp47', title: 'Verdant Ridge', location: 'North Pass', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/47.jpg' },
+      { id: 'sp48', title: 'Spring Blossom', location: 'Mountain Path', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/B_1106-m.jpg' },
+      { id: 'sp49', title: 'Mountain Flora', location: 'Valley View', url: 'https://aranya-photography.oss-cn-beijing.aliyuncs.com/spring/B_1119-m.jpg' },
     ]
   },
   {
